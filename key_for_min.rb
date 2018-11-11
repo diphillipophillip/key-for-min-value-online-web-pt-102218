@@ -11,7 +11,11 @@ def key_for_min_value(hash)
 end 
 end
 lowest_key
-end 
+end
+
+hash.inject |accumulator, element
+accumulator = nil 
+
 
 
 
